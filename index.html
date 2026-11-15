@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked List Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Linked List Visualizer</h1>
+
+    <p>
+        An interactive demonstration of
+        Singly Linked List operations.
+    </p>
+
+    <div class="container">
+
+        <h2>Linked List Operations</h2>
+
+        <input type="number" id="value"
+               placeholder="Enter node value">
+
+        <input type="number" id="position"
+               placeholder="Enter position">
+
+        <div class="buttons">
+            <button onclick="insertBeginning()">Insert at Beginning</button>
+            <button onclick="insertEnd()">Insert at End</button>
+            <button onclick="insertPosition()">Insert at Position</button>
+
+            <button onclick="deleteBeginning()">Delete at Beginning</button>
+            <button onclick="deleteEnd()">Delete at End</button>
+            <button onclick="deletePosition()">Delete at Position</button>
+
+            <button onclick="searchNode()">Search</button>
+            <button onclick="displayList()">Display</button>
+        </div>
+
+        <h2>Visualization</h2>
+
+        <div id="list"></div>
+
+        <p id="message">Your linked list is empty.</p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

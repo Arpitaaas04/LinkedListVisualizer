@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4fa;
+    color: #263445;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+h1 {
+    color: #2457a7;
+    margin-bottom: 12px;
+    font-size: 32px;
+}
+
+p {
+    color: #65758b;
+    margin-bottom: 25px;
+}
+
+.container {
+    background: white;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #2457a7;
+    margin: 20px 0;
+}
+
+input {
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    width: 200px;
+    font-size: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+button {
+    background: #316ac5;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #194b96;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.node {
+    background: #dceaff;
+    color: #194b96;
+    border: 2px solid #316ac5;
+    border-radius: 9px;
+    padding: 20px;
+    min-width: 65px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#message {
+    margin-top: 15px;
+    color: #2457a7;
+    font-weight: bold;
+}
